@@ -8,24 +8,24 @@ Atomic CRM is free and open-source. You can test it online at https://marmelab.c
 
 ## Features
 
-- 📇 **Organize Contacts**: Keep all your contacts in one easily accessible place.
-- ⏰ **Create Tasks & Set Reminders**: Never miss a follow-up or deadline.
-- 📝 **Take Notes**: Capture important details and insights effortlessly.
-- ✉️ **Capture Emails**: CC Atomic CRM to automatically save communications as notes.
-- 📊 **Manage Deals**: Visualize and track your sales pipeline in a Kanban board.
-- 🔄 **Import & Export Data**: Easily transfer contacts in and out of the system.
-- 🔐 **Control Access**: Log in with Google, Azure, Keycloak, and Auth0.
-- 📜 **Track Activity History**: View all interactions in aggregated activity logs.
-- 🔗 **Integrate via API**: Connect seamlessly with other systems using our API.
-- 🛠️ **Customize Everything**: Add custom fields, change the theme, and replace any component to fit your needs.
+-   📇 **Organize Contacts**: Keep all your contacts in one easily accessible place.
+-   ⏰ **Create Tasks & Set Reminders**: Never miss a follow-up or deadline.
+-   📝 **Take Notes**: Capture important details and insights effortlessly.
+-   ✉️ **Capture Emails**: CC Atomic CRM to automatically save communications as notes.
+-   📊 **Manage Deals**: Visualize and track your sales pipeline in a Kanban board.
+-   🔄 **Import & Export Data**: Easily transfer contacts in and out of the system.
+-   🔐 **Control Access**: Log in with Google, Azure, Keycloak, and Auth0.
+-   📜 **Track Activity History**: View all interactions in aggregated activity logs.
+-   🔗 **Integrate via API**: Connect seamlessly with other systems using our API.
+-   🛠️ **Customize Everything**: Add custom fields, change the theme, and replace any component to fit your needs.
 
 ## Installation
 
 To run this project locally, you will need the following tools installed on your computer:
 
-- Make
-- Node 20 LTS
-- Docker (required by Supabase)
+-   Make
+-   Node 20 LTS
+-   Docker (required by Supabase)
 
 Fork the [`marmelab/atomic-crm`](https://github.com/marmelab/atomic-crm) repository to your user/organization, then clone it locally:
 
@@ -52,12 +52,12 @@ This will start the Vite dev server for the frontend, the local Supabase instanc
 
 You can then access the app via [http://localhost:5173/](http://localhost:5173/). You will be prompted to create the first user.
 
-If you need debug the backend, you can access the following services: 
+If you need debug the backend, you can access the following services:
 
-- Supabase dashboard: [http://localhost:54323/](http://localhost:54323/)
-- REST API: [http://127.0.0.1:54321](http://127.0.0.1:54321)
-- Attachments storage: [http://localhost:54323/project/default/storage/buckets/attachments](http://localhost:54323/project/default/storage/buckets/attachments)
-- Inbucket email testing service: [http://localhost:54324/](http://localhost:54324/)
+-   Supabase dashboard: [http://localhost:54322/](http://localhost:54322/)
+-   REST API: [http://127.0.0.1:54321](http://127.0.0.1:54321)
+-   Attachments storage: [http://localhost:54322/project/default/storage/buckets/attachments](http://localhost:54322/project/default/storage/buckets/attachments)
+-   Inbucket email testing service: [http://localhost:54324/](http://localhost:54324/)
 
 ## User Documentation
 
@@ -68,7 +68,7 @@ If you need debug the backend, you can access the following services:
 ## Deploying to Production
 
 1. [Configuring Supabase](./doc/developer/supabase-configuration.md)
-2. [Configuring Inbound Email](./doc/developer/inbound-email-configuration.md) *(optional)*
+2. [Configuring Inbound Email](./doc/developer/inbound-email-configuration.md) _(optional)_
 3. [Deployment](./doc/developer/deploy.md)
 
 ## Customizing Atomic CRM
@@ -76,9 +76,9 @@ If you need debug the backend, you can access the following services:
 To customize Atomic CRM, you will need TypeScript and React programming skills as there is no graphical user interface for customization. Here are some resources to assist you in getting started.
 
 1. [Customizing the CRM](./doc/developer/customizing.md)
-2. [Creating Migrations](./doc/developer/migrations.md) *(optional)*
-3. [Using Fake Rest Data Provider for Development](./doc/developer/data-providers.md) *(optional)*
-4. [Architecture Decisions](./doc/developer/architecture-choices.md) *(optional)*
+2. [Creating Migrations](./doc/developer/migrations.md) _(optional)_
+3. [Using Fake Rest Data Provider for Development](./doc/developer/data-providers.md) _(optional)_
+4. [Architecture Decisions](./doc/developer/architecture-choices.md) _(optional)_
 
 ## Testing Changes
 
